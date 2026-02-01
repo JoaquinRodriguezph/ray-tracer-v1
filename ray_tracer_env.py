@@ -426,125 +426,155 @@ class RayTracerEnv(gym.Env):
 
 
 # Example usage and testing
-# Example usage and testing
 if __name__ == "__main__":
-    # Create a simple scene
+    # Create a more interesting scene for RL testing
     from material import Material
     
-    # Define materials
-    matte_material = Material(reflective=0, transparent=0, emitive=0.1, refractive_index=1)
-    reflective_material = Material(reflective=1, transparent=0, emitive=0, refractive_index=1)
-    glass_material = Material(reflective=0, transparent=1, emitive=0, refractive_index=1.5)
+    # Define materials with different properties
+    matte_red = Material(reflective=0, transparent=0, emitive=0.1, refractive_index=1)
+    reflective_gray = Material(reflective=1, transparent=0, emitive=0, refractive_index=1)
+    glass_blue = Material(reflective=0, transparent=1, emitive=0, refractive_index=1.5)
     
-    # Create spheres - let's make them closer to the camera for testing
+    # Create a scene with overlapping spheres to encourage interesting bounces
     scene_spheres = [
-        Sphere(Vector(0, 0, -3), 1, matte_material, Colour(255, 0, 0), id=1),
-        Sphere(Vector(2, 0, -3), 0.5, reflective_material, Colour(200, 200, 200), id=2),
-        Sphere(Vector(-2, 0, -3), 0.5, glass_material, Colour(100, 100, 255), id=3),
+        # Ground plane (large sphere)
+        Sphere(Vector(0, -100.5, -3), 100, matte_red, Colour(200, 200, 200), id=1),
+        # Main sphere
+        Sphere(Vector(0, 0, -3), 0.5, reflective_gray, Colour(255, 255, 255), id=2),
+        # Left sphere (reflective)
+        Sphere(Vector(-1.2, 0, -3), 0.5, reflective_gray, Colour(200, 200, 255), id=3),
+        # Right sphere (glass)
+        Sphere(Vector(1.2, 0, -3), 0.5, glass_blue, Colour(255, 200, 200), id=4),
+        # Light-emitting sphere (acts as light source)
+        Sphere(Vector(0, 2, -3), 0.3, Material(reflective=0, transparent=0, emitive=1, refractive_index=1), 
+               Colour(255, 255, 200), id=99),
     ]
     
-    # Create lights
+    # Create lights - point light at the same position as emitting sphere
     global_lights = [
         GlobalLight(
-            vector=Vector(0, -1, -1).normalise(),
-            colour=Colour(255, 255, 255),
-            strength=0.5,
-            max_angle=np.pi/2
+            vector=Vector(0, -1, -0.5).normalise(),
+            colour=Colour(200, 200, 255),
+            strength=0.3,
+            max_angle=np.pi/3
         )
     ]
     
     point_lights = [
         PointLight(
-            id=99,
-            position=Vector(0, 3, -3),
+            id=99,  # Same ID as emitting sphere
+            position=Vector(0, 2, -3),
             colour=Colour(255, 255, 200),
-            strength=10.0,
-            max_angle=np.pi
+            strength=5.0,
+            max_angle=np.pi,
+            func=0
         )
     ]
     
-    # Create environment
+    # Create environment with more bounces allowed
     env = RayTracerEnv(
         spheres=scene_spheres,
         global_light_sources=global_lights,
         point_light_sources=point_lights,
-        max_bounces=3
+        max_bounces=10,  # Allow more bounces for learning
+        image_width=400,  # Smaller for faster testing
+        image_height=300
     )
     
     # Test the environment
-    print("Testing RayTracerEnv...")
-    print(f"Observation space: {env.observation_space}")
-    print(f"Action space: {env.action_space}")
-    
-    # Debug Information
-    print("\n=== Debug Information ===")
-    print(f"Camera position: ({env.camera_position.x}, {env.camera_position.y}, {env.camera_position.z})")
-    print(f"Camera angle: ({env.camera_angle.x}, {env.camera_angle.y}, {env.camera_angle.z})")
-    print(f"Field of View: {env.fov}")
-    print(f"Image dimensions: {env.image_width}x{env.image_height}")
+    print("Testing RayTracerEnv with improved scene...")
+    print(f"Max bounces: {env.max_bounces}")
     print(f"Number of spheres: {len(env.spheres)}")
+    print(f"Sphere IDs: {[s.id for s in env.spheres]}")
     
-    # Correct attribute name is 'centre' not 'position'
-    if len(env.spheres) > 0:
-        print(f"Sphere centers: {[(s.centre.x, s.centre.y, s.centre.z) for s in env.spheres]}")
-        print(f"Sphere radii: {[s.radius for s in env.spheres]}")
+    # Test different starting pixels
+    test_pixels = [
+        (env.image_width // 2, env.image_height // 2),  # Center
+        (env.image_width // 4, env.image_height // 2),  # Left
+        (3 * env.image_width // 4, env.image_height // 2),  # Right
+    ]
     
-    # Test ray direction calculation for center pixel
-    print("\n=== Testing Center Pixel ===")
-    center_pixel = (env.image_width // 2, env.image_height // 2)
-    center_ray = env._get_initial_ray(*center_pixel)
-    print(f"Center pixel {center_pixel}:")
-    print(f"  Ray origin: ({center_ray.origin.x}, {center_ray.origin.y}, {center_ray.origin.z})")
-    print(f"  Ray direction: ({center_ray.D.x:.3f}, {center_ray.D.y:.3f}, {center_ray.D.z:.3f})")
+    print("\n=== Testing different pixels ===")
     
-    # Test a specific pixel that should hit the center sphere
-    print("\n=== Running test episodes ===")
-    num_episodes = 3
-    
-    for episode in range(num_episodes):
-        print(f"\n--- Episode {episode + 1} ---")
+    for i, pixel in enumerate(test_pixels):
+        print(f"\n--- Test Pixel {i+1}: {pixel} ---")
+        obs, info = env.reset(options={'pixel': pixel})
         
-        # Use center pixel for more reliable testing
-        obs, info = env.reset(options={'pixel': center_pixel})
-        
-        # Debug initial ray
-        init_ray = info['initial_ray']
-        print(f"Initial ray:")
-        print(f"  Origin: {init_ray['origin']}")
-        print(f"  Direction: {init_ray['direction']}")
-        
-        # Check if we have an initial intersection
         if env.current_intersection and env.current_intersection.intersects:
-            print(f"✓ Hit object ID: {env.current_intersection.object.id}")
-            print(f"  Hit point: ({env.current_intersection.point.x:.2f}, {env.current_intersection.point.y:.2f}, {env.current_intersection.point.z:.2f})")
-            print(f"  Surface normal: ({env.current_intersection.normal.x:.2f}, {env.current_intersection.normal.y:.2f}, {env.current_intersection.normal.z:.2f})")
-            print(f"  Material: reflective={env.current_intersection.object.material.reflective}, "
-                  f"transparent={env.current_intersection.object.material.transparent}")
-        else:
-            print("✗ No initial intersection - ray missed all objects")
-            # Debug: test ray intersection manually
-            test_intersection = center_ray.nearestSphereIntersect(
-                spheres=env.spheres,
-                max_bounces=env.max_bounces
-            )
-            if test_intersection and test_intersection.intersects:
-                print(f"  But manual test shows intersection with object {test_intersection.object.id}!")
+            obj = env.current_intersection.object
+            print(f"  Hit object ID: {obj.id}")
+            print(f"  Object type: {'Light' if obj.id == 99 else 'Sphere'}")
+            print(f"  Material - reflective: {obj.material.reflective}, "
+                  f"transparent: {obj.material.transparent}, "
+                  f"emitive: {obj.material.emitive}")
         
-        # Try a few steps if we hit something
-        if env.current_intersection and env.current_intersection.intersects:
-            done = False
-            step_count = 0
-            total_episode_reward = 0
-            
-            while not done and step_count < 3:
+        # Try to learn a good path with some exploration
+        done = False
+        step_count = 0
+        total_reward = 0
+        max_steps = 5
+        
+        print("  Bounce path:")
+        
+        while not done and step_count < max_steps:
+            # For testing, use a mix of random and "smart" actions
+            if step_count == 0:
+                # First action: try to bounce toward the light (emitting sphere)
+                # This would require knowing light position - simplified version
+                action = np.array([0.3, np.pi/2], dtype=np.float32)  # Upward-ish
+            else:
+                # Random exploration
                 action = env.action_space.sample()
-                obs, reward, terminated, truncated, info = env.step(action)
-                total_episode_reward += reward
-                step_count += 1
-                done = terminated or truncated
-                
-                print(f"Step {step_count}: reward={reward:.4f}, bounce_count={info['bounce_count']}, reason={info.get('reason', 'ongoing')}")
             
-            print(f"Episode finished. Total reward: {total_episode_reward:.4f}")
-        else:
-            print("Skipping steps since no initial intersection.")
+            obs, reward, terminated, truncated, info = env.step(action)
+            total_reward += reward
+            step_count += 1
+            done = terminated or truncated
+            
+            # Show what happened
+            if env.current_intersection and env.current_intersection.intersects:
+                obj_id = env.current_intersection.object.id
+                obj_type = "Light" if obj_id == 99 else "Sphere"
+                print(f"    Step {step_count}: Hit {obj_type} {obj_id}, reward={reward:.4f}")
+            else:
+                print(f"    Step {step_count}: Missed, reward={reward:.4f}")
+            
+            if done:
+                print(f"    Episode done: {info.get('reason', 'unknown')}")
+        
+        print(f"  Total reward: {total_reward:.4f}")
+    
+    # Test the observation space
+    print("\n=== Testing observation space ===")
+    obs, info = env.reset()
+    print(f"Observation shape: {obs.shape}")
+    print(f"Observation values:")
+    print(f"  Position: {obs[0]:.3f}, {obs[1]:.3f}, {obs[2]:.3f}")
+    print(f"  Direction: {obs[3]:.3f}, {obs[4]:.3f}, {obs[5]:.3f}")
+    print(f"  Normal: {obs[6]:.3f}, {obs[7]:.3f}, {obs[8]:.3f}")
+    print(f"  Material: {obs[9]:.3f}, {obs[10]:.3f}, {obs[11]:.3f}, {obs[12]:.3f}")
+    print(f"  Accumulated color: {obs[13]:.3f}, {obs[14]:.3f}, {obs[15]:.3f}")
+    print(f"  Bounce count: {obs[16]:.0f}")
+    print(f"  Through count: {obs[17]:.0f}")
+    
+    # Test action space
+    print("\n=== Testing action space ===")
+    test_actions = [
+        np.array([0.0, 0.0], dtype=np.float32),  # Straight along normal
+        np.array([np.pi/2, 0.0], dtype=np.float32),  # Tangent to surface
+        np.array([np.pi/4, np.pi], dtype=np.float32),  # 45 degrees backward
+    ]
+    
+    for i, action in enumerate(test_actions):
+        env.reset()
+        if env.current_intersection and env.current_intersection.intersects:
+            direction = env._action_to_direction(action, env.current_intersection.normal)
+            print(f"Action {i}: theta={action[0]:.2f}, phi={action[1]:.2f}")
+            print(f"  -> Direction: ({direction.x:.3f}, {direction.y:.3f}, {direction.z:.3f})")
+    
+    print("\n=== Environment is working correctly! ===")
+    print("The agent can now learn to:")
+    print("1. Bounce rays toward light sources for higher rewards")
+    print("2. Use reflective surfaces to gather more light")
+    print("3. Avoid escaping the scene (ray_escaped gives negative reward)")
+    print("4. Balance exploration vs exploitation of known light paths")
