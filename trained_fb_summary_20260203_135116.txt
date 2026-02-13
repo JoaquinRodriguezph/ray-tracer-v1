@@ -1,0 +1,40 @@
+================================================================================
+TRAINED FB MODEL COMPARISON RESULTS
+================================================================================
+
+Research Question: Can unsupervised Forward-Backward (FB) representation learning
+match or exceed traditional sampling for adaptive Monte Carlo ray tracing?
+
+FB TRAINED:
+  Average Reward: 0.170 ± 1.427
+  Average Light Hits: 0.020
+  Average Steps: 0.54
+  Success Rate: 6.0%
+  Number of Trials: 200
+
+FB UNTRAINED:
+  Average Reward: 0.221 ± 1.589
+  Average Light Hits: 0.025
+  Average Steps: 0.55
+  Success Rate: 7.5%
+  Number of Trials: 200
+
+TRADITIONAL:
+  Average Reward: 0.117 ± 1.237
+  Average Light Hits: 0.015
+  Average Steps: 0.53
+  Success Rate: 5.5%
+  Number of Trials: 200
+
+================================================================================
+RESEARCH CONCLUSIONS
+================================================================================
+
+1. PERFORMANCE:
+   Trained FB improves over Traditional by +44.7%
+2. TRAINING EFFECTIVENESS:
+   Training provides -22.9% improvement over untrained FB
+3. EFFICIENCY:
+   Trained FB is +33.3% more efficient (lights per step)
+
+OVERALL CONCLUSION:

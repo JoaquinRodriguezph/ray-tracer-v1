@@ -1,0 +1,26 @@
+Traditional Ray Tracing Statistics:
+        
+        Render Settings:
+        Image Size: 800x600
+        Samples per Pixel: 4
+        Max Bounces: 5
+        
+        Performance:
+        Render Time: 3131.9 seconds
+        Total Rays: 11,121,492
+        Rays per Second: 3,551
+        
+        Scene Complexity:
+        Scene Objects: 54
+        Light Sources: 3
+        Total Intersections: 9,307,700
+        Direct Light Hits: 106,208
+        
+        Light Hit Rate: 0.9550%
+        
+        Expected FB Advantage:
+        • Small lights (0.08-0.15 radius) are hard to hit randomly
+        • Mirror sphere causes many bounce rays
+        • Glass spheres require precise sampling
+        • Traditional MC has high variance in this scene
+        

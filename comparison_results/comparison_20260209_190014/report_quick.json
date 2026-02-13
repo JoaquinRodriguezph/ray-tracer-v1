@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-02-09T19:02:50.770743",
+  "configuration": {
+    "width": 200,
+    "height": 150,
+    "spp": 4,
+    "bounces": 3,
+    "name": "quick"
+  },
+  "comparison": {
+    "config": {
+      "width": 200,
+      "height": 150,
+      "spp": 4,
+      "bounces": 3,
+      "name": "quick"
+    },
+    "traditional_stats": {
+      "total_rays": 443079,
+      "total_intersections": 335668,
+      "light_hits": 12589,
+      "small_light_hits": 0,
+      "render_time": 77.38730883598328,
+      "rays_per_second": 5725.473681208807
+    },
+    "fb_stats": {
+      "total_rays": 443059,
+      "total_intersections": 335621,
+      "light_hits": 12562,
+      "small_light_hits": 0,
+      "fb_used": 0,
+      "fb_success": 0,
+      "render_time": 73.05437564849854,
+      "rays_per_second": 6064.783882785891
+    },
+    "improvements": {
+      "speedup": 1.0593110699943926,
+      "ray_efficiency": 0.9999548613226986
+    }
+  }
+}
