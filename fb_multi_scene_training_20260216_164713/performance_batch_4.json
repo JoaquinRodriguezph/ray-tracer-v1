@@ -1,0 +1,652 @@
+{
+  "batch": 4,
+  "total_scenes": 80,
+  "performances": [
+    {
+      "scene_name": "complex_scene_v0",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.6000000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v0",
+      "objects": 8,
+      "lights": 1,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v0",
+      "objects": 12,
+      "lights": 2,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v0",
+      "objects": 15,
+      "lights": 3,
+      "final_loss": -0.42941205501556395,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v0",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -0.9525513160228729,
+      "final_hit_rate": 0.35000000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v0",
+      "objects": 21,
+      "lights": 15,
+      "final_loss": -1.095759084224701,
+      "final_hit_rate": 0.32500000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v0",
+      "objects": 18,
+      "lights": 9,
+      "final_loss": -1.2082959556579589,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v0",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.2196258902549744,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.1479699468612672,
+      "final_hit_rate": 0.425,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v1",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -0.5764913916587829,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v1",
+      "objects": 13,
+      "lights": 2,
+      "final_loss": -0.9761773300170898,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v1",
+      "objects": 16,
+      "lights": 3,
+      "final_loss": -1.0780731022357941,
+      "final_hit_rate": 0.45000000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v1",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.2482934713363647,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v1",
+      "objects": 23,
+      "lights": 17,
+      "final_loss": -1.2796006536483764,
+      "final_hit_rate": 0.35,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v1",
+      "objects": 20,
+      "lights": 10,
+      "final_loss": -1.3413133335113525,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v1",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.4012963414192199,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4338925313949584,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v2",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.4193436121940612,
+      "final_hit_rate": 0.30000000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v2",
+      "objects": 14,
+      "lights": 2,
+      "final_loss": -1.44317551612854,
+      "final_hit_rate": 0.25,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v2",
+      "objects": 17,
+      "lights": 3,
+      "final_loss": -1.4866895771026611,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v0",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4809178328514099,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v0",
+      "objects": 8,
+      "lights": 1,
+      "final_loss": -1.4119029211997987,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v0",
+      "objects": 12,
+      "lights": 2,
+      "final_loss": -1.266728835105896,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v0",
+      "objects": 15,
+      "lights": 3,
+      "final_loss": -1.092970643043518,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v0",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.1944861686229706,
+      "final_hit_rate": 0.35000000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v0",
+      "objects": 21,
+      "lights": 15,
+      "final_loss": -1.283817219734192,
+      "final_hit_rate": 0.425,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v0",
+      "objects": 18,
+      "lights": 9,
+      "final_loss": -1.2867977213859558,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v0",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.3235411405563355,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.3236361289024352,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v1",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.3627047157287597,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v1",
+      "objects": 13,
+      "lights": 2,
+      "final_loss": -1.3548698329925537,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v1",
+      "objects": 16,
+      "lights": 3,
+      "final_loss": -1.4160290122032166,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v1",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.4665513515472413,
+      "final_hit_rate": 0.325,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v1",
+      "objects": 23,
+      "lights": 17,
+      "final_loss": -1.4862684059143065,
+      "final_hit_rate": 0.275,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v1",
+      "objects": 20,
+      "lights": 10,
+      "final_loss": -1.5489271593093872,
+      "final_hit_rate": 0.275,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v1",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.5818118262290954,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5847758412361146,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v2",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.6230933737754822,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v2",
+      "objects": 14,
+      "lights": 2,
+      "final_loss": -1.6343562602996826,
+      "final_hit_rate": 0.3,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v2",
+      "objects": 17,
+      "lights": 3,
+      "final_loss": -1.6769263911247254,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v0",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6841582489013671,
+      "final_hit_rate": 0.6,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v0",
+      "objects": 8,
+      "lights": 1,
+      "final_loss": -1.6469292330741883,
+      "final_hit_rate": 0.275,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v0",
+      "objects": 12,
+      "lights": 2,
+      "final_loss": -1.6862855124473572,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v0",
+      "objects": 15,
+      "lights": 3,
+      "final_loss": -1.6785550689697266,
+      "final_hit_rate": 0.45000000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v0",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.6883916354179382,
+      "final_hit_rate": 0.325,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v0",
+      "objects": 21,
+      "lights": 15,
+      "final_loss": -1.6269363248348236,
+      "final_hit_rate": 0.275,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v0",
+      "objects": 18,
+      "lights": 9,
+      "final_loss": -1.596232099533081,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v0",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.5945869565010071,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5433348798751831,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v1",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.097659856081009,
+      "final_hit_rate": 0.32500000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v1",
+      "objects": 13,
+      "lights": 2,
+      "final_loss": -1.2368858933448792,
+      "final_hit_rate": 0.45000000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v1",
+      "objects": 16,
+      "lights": 3,
+      "final_loss": -1.3335685682296754,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v1",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.3034485650062562,
+      "final_hit_rate": 0.325,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v1",
+      "objects": 23,
+      "lights": 17,
+      "final_loss": -1.3457554030418395,
+      "final_hit_rate": 0.35000000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v1",
+      "objects": 20,
+      "lights": 10,
+      "final_loss": -1.3632090640068055,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v1",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.4144814825057983,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.373791971206665,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v2",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.4188453030586243,
+      "final_hit_rate": 0.175,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v2",
+      "objects": 14,
+      "lights": 2,
+      "final_loss": -1.4912315702438355,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v2",
+      "objects": 17,
+      "lights": 3,
+      "final_loss": -1.4107746624946593,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v0",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.487677080631256,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v0",
+      "objects": 8,
+      "lights": 1,
+      "final_loss": -1.4317827016115188,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v0",
+      "objects": 12,
+      "lights": 2,
+      "final_loss": -1.495670416355133,
+      "final_hit_rate": 0.32500000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v0",
+      "objects": 15,
+      "lights": 3,
+      "final_loss": -1.5079411244392396,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v0",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.562224531173706,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v0",
+      "objects": 21,
+      "lights": 15,
+      "final_loss": -1.515872025489807,
+      "final_hit_rate": 0.22499999999999998,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v0",
+      "objects": 18,
+      "lights": 9,
+      "final_loss": -1.559634919166565,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v0",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.6433512926101685,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6621119093894958,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v1",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.5975677108764648,
+      "final_hit_rate": 0.025,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v1",
+      "objects": 13,
+      "lights": 2,
+      "final_loss": -1.6455499720573425,
+      "final_hit_rate": 0.30000000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v1",
+      "objects": 16,
+      "lights": 3,
+      "final_loss": -1.5934577867388726,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "simple_challenging_v1",
+      "objects": 7,
+      "lights": 2,
+      "final_loss": -1.714734869003296,
+      "final_hit_rate": 0.35000000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "many_lights_v1",
+      "objects": 23,
+      "lights": 17,
+      "final_loss": -1.704889326095581,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "occluded_lights_v1",
+      "objects": 20,
+      "lights": 10,
+      "final_loss": -1.7297999310493468,
+      "final_hit_rate": 0.35000000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_scene_v1",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.7665938854217529,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_scene_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.815802743434906,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "cornell_box_v2",
+      "objects": 9,
+      "lights": 2,
+      "final_loss": -1.7749833273887634,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "mirror_maze_v2",
+      "objects": 14,
+      "lights": 2,
+      "final_loss": -1.814479146003723,
+      "final_hit_rate": 0.37500000000000006,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "glass_gallery_v2",
+      "objects": 17,
+      "lights": 3,
+      "final_loss": -1.8093985033035278,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    }
+  ],
+  "overall_stats": {
+    "avg_loss": NaN,
+    "avg_hit_rate": 0.3428125,
+    "min_hit_rate": 0.025,
+    "max_hit_rate": 0.6000000000000001
+  }
+}

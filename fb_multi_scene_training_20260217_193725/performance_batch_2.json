@@ -1,0 +1,332 @@
+{
+  "batch": 2,
+  "total_scenes": 40,
+  "performances": [
+    {
+      "scene_name": "chandelier_v0",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.30000000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v1",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v2",
+      "objects": 31,
+      "lights": 23,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v3",
+      "objects": 32,
+      "lights": 24,
+      "final_loss": -0.40245047003030776,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v4",
+      "objects": 33,
+      "lights": 25,
+      "final_loss": -0.9471362733840942,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v5",
+      "objects": 34,
+      "lights": 26,
+      "final_loss": -1.1846665906906129,
+      "final_hit_rate": 0.175,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v6",
+      "objects": 35,
+      "lights": 27,
+      "final_loss": -1.301915726661682,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v7",
+      "objects": 36,
+      "lights": 28,
+      "final_loss": -1.4045139789581298,
+      "final_hit_rate": 0.22500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v8",
+      "objects": 37,
+      "lights": 29,
+      "final_loss": -1.4065584683418273,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v9",
+      "objects": 38,
+      "lights": 30,
+      "final_loss": -0.7185467904806138,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v10",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.2521025228500366,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v11",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.3134527254104613,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v12",
+      "objects": 31,
+      "lights": 23,
+      "final_loss": -1.3872982931137086,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v13",
+      "objects": 32,
+      "lights": 24,
+      "final_loss": -1.4290939164161682,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v14",
+      "objects": 33,
+      "lights": 25,
+      "final_loss": -1.514798891544342,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v15",
+      "objects": 34,
+      "lights": 26,
+      "final_loss": -1.599726963043213,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v16",
+      "objects": 35,
+      "lights": 27,
+      "final_loss": -1.628149003982544,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v17",
+      "objects": 36,
+      "lights": 28,
+      "final_loss": -1.6861808705329895,
+      "final_hit_rate": 0.30000000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v18",
+      "objects": 37,
+      "lights": 29,
+      "final_loss": -1.7696243143081665,
+      "final_hit_rate": 0.25,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v19",
+      "objects": 38,
+      "lights": 30,
+      "final_loss": -1.7842747783660888,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v0",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.7759766387939453,
+      "final_hit_rate": 0.30000000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v1",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.7632874727249146,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v2",
+      "objects": 31,
+      "lights": 23,
+      "final_loss": -1.7051016759872437,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v3",
+      "objects": 32,
+      "lights": 24,
+      "final_loss": -1.445730266571045,
+      "final_hit_rate": 0.175,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v4",
+      "objects": 33,
+      "lights": 25,
+      "final_loss": -1.4476390290260315,
+      "final_hit_rate": 0.275,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v5",
+      "objects": 34,
+      "lights": 26,
+      "final_loss": -1.5891240859031677,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v6",
+      "objects": 35,
+      "lights": 27,
+      "final_loss": -1.530883858203888,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v7",
+      "objects": 36,
+      "lights": 28,
+      "final_loss": -1.6140428137779237,
+      "final_hit_rate": 0.225,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v8",
+      "objects": 37,
+      "lights": 29,
+      "final_loss": -1.5940749526023865,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v9",
+      "objects": 38,
+      "lights": 30,
+      "final_loss": -1.6978537034988403,
+      "final_hit_rate": 0.3,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v10",
+      "objects": 29,
+      "lights": 21,
+      "final_loss": -1.7424812936782836,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v11",
+      "objects": 30,
+      "lights": 22,
+      "final_loss": -1.7771815299987792,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v12",
+      "objects": 31,
+      "lights": 23,
+      "final_loss": -1.8464060068130492,
+      "final_hit_rate": 0.22500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v13",
+      "objects": 32,
+      "lights": 24,
+      "final_loss": -1.8320673418045044,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v14",
+      "objects": 33,
+      "lights": 25,
+      "final_loss": -1.8712211084365844,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v15",
+      "objects": 34,
+      "lights": 26,
+      "final_loss": -1.909046504497528,
+      "final_hit_rate": 0.25,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v16",
+      "objects": 35,
+      "lights": 27,
+      "final_loss": -1.9547625923156737,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v17",
+      "objects": 36,
+      "lights": 28,
+      "final_loss": -1.9447434401512147,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v18",
+      "objects": 37,
+      "lights": 29,
+      "final_loss": -2.0096397233009338,
+      "final_hit_rate": 0.275,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "chandelier_v19",
+      "objects": 38,
+      "lights": 30,
+      "final_loss": -2.0499932193756103,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    }
+  ],
+  "overall_stats": {
+    "avg_loss": NaN,
+    "avg_hit_rate": 0.19375,
+    "min_hit_rate": 0.07500000000000001,
+    "max_hit_rate": 0.30000000000000004
+  }
+}

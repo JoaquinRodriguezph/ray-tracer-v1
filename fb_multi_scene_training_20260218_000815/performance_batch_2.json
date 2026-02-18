@@ -1,0 +1,332 @@
+{
+  "batch": 2,
+  "total_scenes": 40,
+  "performances": [
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": 0.8671713370084763,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.2221466737985611,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.36490116953849794,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.428949613571167,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.47391565203666686,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -0.509357208609581,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.500902281999588,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -0.3545991224050522,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.460033038854599,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.5425488770008087,
+      "final_hit_rate": 0.025,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -0.593491849899292,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.6646427929401397,
+      "final_hit_rate": 0.15000000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.7205187857151032,
+      "final_hit_rate": 0.0,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.7413705193996429,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -0.7844551908969879,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -0.8259867465496064,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8425634288787842,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.881172696352005,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8650864028930664,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8593976199626923,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -0.6897300827503204,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.7308388566970825,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.7561873316764831,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.7458224630355835,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8006437599658967,
+      "final_hit_rate": 0.075,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -0.8340837085247039,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8496564364433289,
+      "final_hit_rate": 0.1,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -0.8927438807487488,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8982573318481445,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.9290083312988281,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -0.9287947440147399,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.9608889734745025,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.9822815799713135,
+      "final_hit_rate": 0.07500000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.0082907915115356,
+      "final_hit_rate": 0.2,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.0248922443389892,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.0308785700798035,
+      "final_hit_rate": 0.17500000000000002,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.0552997314929962,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.0729757499694825,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.0719008708000184,
+      "final_hit_rate": 0.05,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.1008395957946777,
+      "final_hit_rate": 0.125,
+      "training_steps": 150
+    }
+  ],
+  "overall_stats": {
+    "avg_loss": 0.8671713370084763,
+    "avg_hit_rate": 0.08782051282051281,
+    "min_hit_rate": 0.025,
+    "max_hit_rate": 0.2
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "batch": 5,
+  "total_scenes": 100,
+  "performances": [
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.475,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": 0.0,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.3258690410852432,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.8807249677181244,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.179183304309845,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.2433621406555175,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.3099346244335175,
+      "final_hit_rate": 0.25,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.2962140488624572,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -0.7655808836221695,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.1301292622089385,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.2177697587013245,
+      "final_hit_rate": 0.6,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.3126196932792664,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4159292411804199,
+      "final_hit_rate": 0.6000000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.4554727220535277,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.4952989196777344,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5649660062789916,
+      "final_hit_rate": 0.675,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6304898762702942,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6589808416366578,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6823306107521057,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.679576301574707,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5874582147598266,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4378266763687133,
+      "final_hit_rate": 0.425,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.2738771367073058,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.389698941707611,
+      "final_hit_rate": 0.325,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.4347239494323731,
+      "final_hit_rate": 0.5750000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4484518814086913,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.453131239414215,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4717814588546754,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5379279112815858,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.5608386063575745,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6126513695716858,
+      "final_hit_rate": 0.475,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6563190269470214,
+      "final_hit_rate": 0.475,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6718286895751953,
+      "final_hit_rate": 0.45000000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.7379825091362,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.7180181860923767,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.7774376249313355,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.7812817287445069,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8298631453514098,
+      "final_hit_rate": 0.6000000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8374088644981383,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.8451653337478637,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8735901474952699,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8653576540946961,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8623501586914062,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8826658630371094,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.858401701450348,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8060849571228028,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.7805235600471496,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6907064485549927,
+      "final_hit_rate": 0.325,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.3183795499801636,
+      "final_hit_rate": 0.625,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.4580103158950806,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4981962108612061,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.4723357224464417,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.516617705821991,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.5087021684646607,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.490742930173874,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5549081158638,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5753203821182251,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.5793802571296691,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6264065790176392,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.6405571603775024,
+      "final_hit_rate": 0.575,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6749156928062439,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.672895121574402,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6965688729286195,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.6828025007247924,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.7400199699401855,
+      "final_hit_rate": 0.5250000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.7312251543998718,
+      "final_hit_rate": 0.575,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.75780823469162,
+      "final_hit_rate": 0.5750000000000001,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.78597398519516,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8325721096992493,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.8455268239974976,
+      "final_hit_rate": 0.475,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8696518540382385,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8233388805389403,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.844043369293213,
+      "final_hit_rate": 0.625,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -1.8442458534240722,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.894949541091919,
+      "final_hit_rate": 0.65,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.8802372431755066,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.9352282881736755,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.9691371464729308,
+      "final_hit_rate": 0.6,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.9792038249969481,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v0",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -1.969645082950592,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v1",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.9711750054359436,
+      "final_hit_rate": 0.525,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v2",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.9832651805877686,
+      "final_hit_rate": 0.475,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v3",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.036153271198273,
+      "final_hit_rate": 0.375,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v4",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -1.9972177398204805,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v5",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -2.0449223732948303,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v6",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.069442985057831,
+      "final_hit_rate": 0.47500000000000003,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v7",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -2.026367883682251,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v8",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.0685080885887146,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v9",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.0988054871559143,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v10",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -2.0729236006736755,
+      "final_hit_rate": 0.45,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v11",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.0872086930274962,
+      "final_hit_rate": 0.32500000000000007,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v12",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.0775727677345275,
+      "final_hit_rate": 0.575,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v13",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.0871207404136656,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v14",
+      "objects": 58,
+      "lights": 4,
+      "final_loss": -2.0854708528518677,
+      "final_hit_rate": 0.625,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v15",
+      "objects": 60,
+      "lights": 6,
+      "final_loss": -2.0618865585327146,
+      "final_hit_rate": 0.4,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v16",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.0625831580162046,
+      "final_hit_rate": 0.5,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v17",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.046397967338562,
+      "final_hit_rate": 0.425,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v18",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.028188738822937,
+      "final_hit_rate": 0.42500000000000004,
+      "training_steps": 150
+    },
+    {
+      "scene_name": "complex_v19",
+      "objects": 59,
+      "lights": 5,
+      "final_loss": -2.018896310329437,
+      "final_hit_rate": 0.55,
+      "training_steps": 150
+    }
+  ],
+  "overall_stats": {
+    "avg_loss": NaN,
+    "avg_hit_rate": 0.4775,
+    "min_hit_rate": 0.25,
+    "max_hit_rate": 0.675
+  }
+}

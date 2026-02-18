@@ -1,0 +1,25 @@
+{
+  "traditional": {
+    "total_rays": 1302496,
+    "total_intersections": 1145497,
+    "light_hits": 3001,
+    "small_light_hits": 913,
+    "render_time": 174.8071928024292,
+    "rays_per_second": 7451.043513250102
+  },
+  "fb": {
+    "total_rays": 1438518,
+    "total_intersections": 1278518,
+    "light_hits": 0,
+    "small_light_hits": 0,
+    "fb_used": 529970,
+    "fb_success": 529970,
+    "render_time": 1092.1788399219513,
+    "rays_per_second": 1317.1084692528914
+  },
+  "comparison": {
+    "speedup": 0.1600536344532377,
+    "ray_efficiency": 1.104431798638921,
+    "small_light_improvement": 0.0
+  }
+}
